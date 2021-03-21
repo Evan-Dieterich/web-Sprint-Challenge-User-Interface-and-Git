@@ -71,12 +71,14 @@ p {
     margin: 0 auto;
 }
 
+/* sprint challenge: add img and navigation bar (.navbar selectors) */
+
 .navbar {
-    margin: 10px 0px 30px 0px;
+    margin: 5px 0px 30px 0px;
 }
 
 .navbar ul {
-    padding-top: 3%;
+    padding-top: 2%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -84,12 +86,13 @@ p {
 }
 
 .navbar a {
-    margin-top: 15px;
     text-decoration: none;
     color: black;
 }
 
-
+.top-img {
+    margin-bottom: 20px;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -123,12 +126,52 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+
+.boxes :nth-child(1) {
+    background:teal;
+}
+
+.boxes :nth-child(2) {
+    background: gold;
+}
+
+.boxes :nth-child(3) {
+    background: cadetblue;
+}
+
+.boxes :nth-child(4) {
+    background: coral;
+}
+
+.boxes :nth-child(5) {
+    background: crimson;
+}
+
+.boxes :nth-child(6) {
+    background: forestgreen;
+}
+
+.boxes :nth-child(7) {
+    background: darkorchid;
+}
+
+.boxes :nth-child(8) {
+    background: hotpink;
+}
+
+.boxes :nth-child(9) {
+    background: indigo;
+}
+
+.boxes :nth-child(10) {
+    background: dodgerblue;
 }
 
 .bottom-content {
