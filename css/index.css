@@ -71,12 +71,51 @@ p {
     margin: 0 auto;
 }
 
+/* sprint challenge: add img and navigation bar (.navbar selectors) */
+
+.navbar {
+    margin: 5px 0px 30px 0px;
+}
+
+.navbar ul {
+    padding-top: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+.top-img {
+    margin-bottom: 18px;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+
+.top-content-about {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    justify-content: flex-start;
+}
+
+.top-content-about h2 {
+    margin: 0 15px;
+    padding-bottom: 20px;
+}
+
+.top-content-about p {
+    margin: 0 15px;
 }
 
 .top-content .text-container {
@@ -104,7 +143,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -112,6 +150,82 @@ p {
     justify-content: center;
 }
 
+/*Sprint Challenge: change colors of boxes (.boxes nth-child)*/
+
+.boxes :nth-child(1) {
+    background:teal;
+}
+
+.boxes :nth-child(2) {
+    background: gold;
+}
+
+.boxes :nth-child(3) {
+    background: cadetblue;
+}
+
+.boxes :nth-child(4) {
+    background: coral;
+}
+
+.boxes :nth-child(5) {
+    background: crimson;
+}
+
+.boxes :nth-child(6) {
+    background: forestgreen;
+}
+
+.boxes :nth-child(7) {
+    background: darkorchid;
+}
+
+.boxes :nth-child(8) {
+    background: hotpink;
+}
+
+.boxes :nth-child(9) {
+    background: indigo;
+}
+
+.boxes :nth-child(10) {
+    background: dodgerblue;
+}
+
+.button {
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 15px 0px 20px 0px;
+}
+
+.main {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-tile {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    width: 46%;
+}
+
+.main-tile h2{
+    margin-top: 10px;
+}
+.main-tile img {
+    width: 100%;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
