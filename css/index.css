@@ -91,7 +91,7 @@ p {
 }
 
 .top-img {
-    margin-bottom: 20px;
+    margin-bottom: 18px;
 }
 .top-content {
     display: flex;
@@ -99,6 +99,23 @@ p {
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+
+.top-content-about {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    justify-content: flex-start;
+}
+
+.top-content-about h2 {
+    margin: 0 15px;
+    padding-bottom: 20px;
+}
+
+.top-content-about p {
+    margin: 0 15px;
 }
 
 .top-content .text-container {
@@ -133,6 +150,7 @@ p {
     justify-content: center;
 }
 
+/*Sprint Challenge: change colors of boxes (.boxes nth-child)*/
 
 .boxes :nth-child(1) {
     background:teal;
@@ -174,6 +192,40 @@ p {
     background: dodgerblue;
 }
 
+.button {
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 15px 0px 20px 0px;
+}
+
+.main {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-tile {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    width: 46%;
+}
+
+.main-tile h2{
+    margin-top: 10px;
+}
+.main-tile img {
+    width: 100%;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
